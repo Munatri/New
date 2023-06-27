@@ -44,12 +44,11 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">host</value>
-    <value name="createdDate">1687855657866</value>
-    <value name="lastModifiedDate">1687855657866</value>
+    <value name="lastModifiedBy">host</value>
+    <value name="lastModifiedDate">1687872056742</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">f8242dddd7cd4afca95f553110e4efe3</value>
-      <null name="group"/>
+      <value name="group">default</value>
       <value name="name">TestContainer4HOST</value>
     </record>
     <value name="displayName">GetDate</value>
@@ -71,6 +70,8 @@
         <number name="nodeIndex" type="Long">0</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
+        <Boolean name="xmlMapsetSupported">true</Boolean>
       </record>
     </record>
   </record>
