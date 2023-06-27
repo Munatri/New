@@ -44,9 +44,8 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">host</value>
-    <value name="createdDate">1687855001536</value>
-    <value name="lastModifiedDate">1687855001536</value>
+    <value name="lastModifiedBy">host</value>
+    <value name="lastModifiedDate">1687855338848</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
       <value name="id">f8242dddd7cd4afca95f553110e4efe3</value>
       <null name="group"/>
@@ -67,6 +66,10 @@
           <value name="serviceName">pub.flow:debugLog</value>
           <value name="transformerSupport">false</value>
         </record>
+        <number name="ui_step_index" type="Long">1</number>
+        <number name="nodeIndex" type="Long">0</number>
+        <null name="mapSet"/>
+        <null name="outputMapSet"/>
       </record>
     </record>
   </record>
