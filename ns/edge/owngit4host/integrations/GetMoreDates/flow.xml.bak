@@ -91,7 +91,7 @@
   <DATA ENCODING="XMLValues" I18N="true">
 
 <Values version="2.0">
-  <value name="xml">yyyy-mon-dd  HH:mi:ss z</value>
+  <value name="xml">yyyy-mm-dd  HH:mi:ss z</value>
 </Values>
 </DATA>
 </MAPSET>
