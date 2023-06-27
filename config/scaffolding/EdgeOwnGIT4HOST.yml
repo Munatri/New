@@ -7,6 +7,10 @@ services:
   packages:
   - name: EdgeOwnGIT4HOST
     version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.286
 - serviceName: pub.date:getCurrentDateString
   packages:
   - name: WmPublic
