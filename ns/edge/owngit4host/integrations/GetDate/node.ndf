@@ -45,11 +45,11 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">host</value>
-    <value name="lastModifiedDate">1687872146445</value>
+    <value name="lastModifiedDate">1687872294200</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">f8242dddd7cd4afca95f553110e4efe3</value>
+      <value name="id">default</value>
       <value name="group">default</value>
-      <value name="name">TestContainer4HOST</value>
+      <value name="name">Default (Cloud)</value>
     </record>
     <value name="displayName">GetDate</value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
@@ -90,6 +90,7 @@
         <number name="nodeIndex" type="Long">1</number>
         <null name="mapSet"/>
         <null name="outputMapSet"/>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
