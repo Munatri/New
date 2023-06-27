@@ -1,9 +1,9 @@
 version: "1.0"
 info:
-  scaffold: GetDate
+  scaffold: GetMoreDates4Dave
   model: int-scaffold
 services:
-- serviceName: edge.owngit4host.integrations:GetDate
+- serviceName: edge.owngit4host.integrations:GetMoreDates4Dave
   packages:
   - name: EdgeOwnGIT4HOST
     version: "1.0"

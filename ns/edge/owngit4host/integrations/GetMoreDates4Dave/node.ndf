@@ -45,11 +45,11 @@
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="lastModifiedBy">host</value>
-    <value name="lastModifiedDate">1687878822900</value>
+    <value name="lastModifiedDate">1687879753196</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="id">50e2d4c8aaf84d5e987ef4314bf50156</value>
+      <value name="id">f8242dddd7cd4afca95f553110e4efe3</value>
       <value name="group">default</value>
-      <value name="name">ukdxp_demo</value>
+      <value name="name">TestContainer4HOST</value>
     </record>
     <value name="displayName">GetMoreDates4Dave</value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
