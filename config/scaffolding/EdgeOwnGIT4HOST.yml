@@ -1,13 +1,13 @@
 version: "1.0"
 info:
-  scaffold: GetMoreDates
+  scaffold: GetDate4Shashi
   model: int-scaffold
 services:
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
     version: 11.0.0.0.286
-- serviceName: edge.owngit4host.integrations:GetMoreDates
+- serviceName: edge.owngit4host.integrations:GetDate4Shashi
   packages:
   - name: EdgeOwnGIT4HOST
     version: "1.0"
