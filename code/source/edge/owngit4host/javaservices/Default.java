@@ -34,5 +34,17 @@ public final class Default
 
                 
 	}
+
+
+
+	public static final void Test4Michael (IData pipeline)
+        throws ServiceException
+	{
+		// --- <<IS-START(Test4Michael)>> ---
+		// @sigtype java 3.5
+		// --- <<IS-END>> ---
+
+                
+	}
 }
 

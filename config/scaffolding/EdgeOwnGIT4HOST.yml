@@ -1,8 +1,20 @@
 version: "1.0"
 info:
-  scaffold: GetDate4Shashi
+  scaffold: EdgeOwnGIT4HOST
   model: int-scaffold
 services:
+- serviceName: edge.owngit4host.integrations:GetDate
+  packages:
+  - name: EdgeOwnGIT4HOST
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.286
+- serviceName: pub.date:getCurrentDateString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.286
 - serviceName: pub.flow:debugLog
   packages:
   - name: WmPublic
@@ -15,3 +27,39 @@ services:
   packages:
   - name: WmPublic
     version: 11.0.0.0.286
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.286
+- serviceName: edge.owngit4host.integrations:GetMoreDates
+  packages:
+  - name: EdgeOwnGIT4HOST
+    version: "1.0"
+- serviceName: pub.date:getCurrentDateString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.286
+- serviceName: edge.owngit4host.integrations:GetMoreDates4Dave
+  packages:
+  - name: EdgeOwnGIT4HOST
+    version: "1.0"
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.286
+- serviceName: pub.date:getCurrentDateString
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.286
+- serviceName: pub.flow:debugLog
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.286
+- serviceName: edge.owngit4host.integrations:myFirstLoggerFlow
+  packages:
+  - name: EdgeOwnGIT4HOST
+    version: "1.0"
+- serviceName: edge.owngit4host.javaservices.Default:Java4Michael
+  packages:
+  - name: EdgeOwnGIT4HOST
+    version: "1.0"

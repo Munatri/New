@@ -18,7 +18,7 @@
   <record name="node_hints" javaclass="com.wm.util.Values">
     <value name="field_largerEditor">false</value>
     <value name="field_password">false</value>
-    <number name="createdDate" type="Long">1688393386818</number>
+    <number name="createdDate" type="Long">1688394381568</number>
     <number name="lastModifiedDate" type="Long">1688394381568</number>
     <value name="createdBy">host</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
@@ -26,8 +26,7 @@
       <value name="group">Default</value>
       <value name="name">Cloud Execution</value>
     </record>
-    <value name="displayName">Java4Michael</value>
-    <value name="lastModifiedBy">host</value>
+    <value name="displayName">Test4Michael</value>
   </record>
   <value name="svc_in_validator_options">none</value>
   <value name="svc_out_validator_options">none</value>
