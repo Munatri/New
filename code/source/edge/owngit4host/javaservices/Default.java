@@ -37,6 +37,18 @@ public final class Default
 
 
 
+	public static final void MoreTest4Today (IData pipeline)
+        throws ServiceException
+	{
+		// --- <<IS-START(MoreTest4Today)>> ---
+		// @sigtype java 3.5
+		// --- <<IS-END>> ---
+
+                
+	}
+
+
+
 	public static final void Test4Michael (IData pipeline)
         throws ServiceException
 	{
