@@ -44,15 +44,14 @@
   <value name="retry_max">0</value>
   <value name="retry_interval">0</value>
   <record name="node_hints" javaclass="com.wm.util.Values">
-    <value name="createdBy">wmio</value>
-    <value name="createdDate">1688529613591</value>
-    <value name="lastModifiedDate">1688529613591</value>
+    <value name="lastModifiedBy">wmio</value>
+    <value name="lastModifiedDate">1688550726862</value>
     <record name="edgeServer" javaclass="com.wm.util.Values">
-      <value name="group">Default</value>
-      <value name="id">default</value>
-      <value name="name">Cloud Execution</value>
+      <value name="id">afe20030690141fd816cd7c8ebc2c510</value>
+      <value name="group">default</value>
+      <value name="name">FlowProdJuly5</value>
     </record>
-    <value name="displayName">dt</value>
+    <value name="displayName">Copy_dt</value>
     <record name="stepNodeHints" javaclass="com.wm.util.Values">
       <record name="/0" javaclass="com.wm.util.Values">
         <null name="name"/>
@@ -67,6 +66,7 @@
           <value name="serviceName">pub.date:currentNanoTime</value>
           <value name="transformerSupport">true</value>
         </record>
+        <Boolean name="serviceReferenceResolved">true</Boolean>
       </record>
     </record>
   </record>
