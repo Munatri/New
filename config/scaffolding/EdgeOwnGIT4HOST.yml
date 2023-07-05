@@ -1,13 +1,13 @@
 version: "1.0"
 info:
-  scaffold: Copy_Debug4WIE645
+  scaffold: Copy_dt
   model: int-scaffold
 services:
-- serviceName: pub.flow:debugLog
-  packages:
-  - name: WmPublic
-    version: 11.0.0.0.286
-- serviceName: edge.owngit4host.integrations:Copy_Debug4WIE645
+- serviceName: edge.owngit4host.integrations:Copy_dt
   packages:
   - name: EdgeOwnGIT4HOST
     version: "1.0"
+- serviceName: pub.date:currentNanoTime
+  packages:
+  - name: WmPublic
+    version: 11.0.0.0.286
