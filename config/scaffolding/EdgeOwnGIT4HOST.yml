@@ -63,6 +63,10 @@ services:
   packages:
   - name: EdgeOwnGIT4HOST
     version: "1.0"
+- serviceName: edge.owngit4host.javaservices.Default:MoreTest4Today
+  packages:
+  - name: EdgeOwnGIT4HOST
+    version: "1.0"
 - serviceName: edge.owngit4host.javaservices.Default:Test4Michael
   packages:
   - name: EdgeOwnGIT4HOST
